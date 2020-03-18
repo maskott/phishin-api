@@ -1,4 +1,4 @@
-# Phishin API
+# 🐠 Phishin API 🐡
 
 A free, CORS-enabled version of the Phish.in API avaliable at http://phish.in/api-docs
 
