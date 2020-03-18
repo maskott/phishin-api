@@ -20,7 +20,11 @@ const handler = async function(req, res) {
     }
   })
   
-  send(res, 200, response.data)
+  if (params == "/") {
+    send(res, 200, "Phishin API: Try a route as seen on `http://phish.in/api-docs`.")
+  }else{
+    send(res, 200, response.data)
+  }
 }
 
 module.exports = cors(handler)
